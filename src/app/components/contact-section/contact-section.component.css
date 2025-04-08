@@ -1,0 +1,19 @@
+.contact {
+  padding-top: 50px;
+  text-align: center;
+  background-color: rgb(83, 104, 223);
+  padding-bottom: 50px;
+  color: white;
+}
+button {
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bolder;
+  background-color: brown;
+  color: white;
+}
+button:hover {
+  background-color: white;
+  color: brown;
+}

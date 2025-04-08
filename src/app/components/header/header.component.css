@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header-tools {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav p {
+  font-weight: bold;
+  color: black;
+}
+
+nav p:hover {
+  color: #832a33;
+}
+
+#log-btn {
+  padding: 8px 16px;
+  border: solid;
+  background-color: #832a33;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+#log-btn:hover {
+  border: solid;
+  background-color: white;
+  color: black;
+}
+
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+#info h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+#info p {
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.primary {
+  padding: 8px 16px;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  color: black;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.primary:hover {
+  background-color: rgb(83, 104, 223);
+  color: white;
+}
+
+#hero-brand {
+  width: 50%;
+
+  margin-left: 20px;
+}

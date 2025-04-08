@@ -1,0 +1,30 @@
+#extension-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  width: 50%;
+  margin: auto;
+}
+
+.card-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 50px;
+  width: 70%;
+  margin: auto;
+}
+
+app-card:first-child {
+  margin-top: 0;
+}
+
+app-card:nth-child(2) {
+  margin-top: 20px;
+}
+
+app-card:nth-child(3) {
+  margin-top: 40px;
+}

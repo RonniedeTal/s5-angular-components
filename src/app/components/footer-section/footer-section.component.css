@@ -1,0 +1,31 @@
+.footer {
+  background-color: #242946;
+}
+
+.footer-content {
+  padding: 10px 40px 10px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.bookmark {
+  width: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  color: white;
+}
+.bookmark a:hover {
+  color: brown;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+img {
+  filter: brightness(1.8);
+}
+img:hover {
+  filter: invert(86%) sepia(41%) saturate(2533%) hue-rotate(336deg)
+    brightness(86%) contrast(101%);
+}
