@@ -7,7 +7,9 @@
 body {
   font-family: Arial, sans-serif;
 }
-
+.header-tools img{
+  cursor: pointer;
+}
 .header-tools {
   display: flex;
   justify-content: space-between;
@@ -28,6 +30,7 @@ nav p {
 
 nav p:hover {
   color: #832a33;
+  cursor: pointer;
 }
 
 #log-btn {
@@ -43,6 +46,7 @@ nav p:hover {
   border: solid;
   background-color: white;
   color: black;
+  cursor: pointer;
 }
 
 .header-content {
@@ -86,10 +90,10 @@ nav p:hover {
 .primary:hover {
   background-color: rgb(83, 104, 223);
   color: white;
+  cursor: pointer;
 }
 
 #hero-brand {
   width: 50%;
-
   margin-left: 20px;
 }

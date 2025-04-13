@@ -16,6 +16,7 @@
 }
 .bookmark a:hover {
   color: brown;
+  cursor: pointer;
 }
 .navigation {
   display: flex;
@@ -28,4 +29,5 @@ img {
 img:hover {
   filter: invert(86%) sepia(41%) saturate(2533%) hue-rotate(336deg)
     brightness(86%) contrast(101%);
+    cursor: pointer;
 }
